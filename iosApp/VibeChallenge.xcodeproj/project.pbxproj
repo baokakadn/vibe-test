@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C3FEF3125A7ED830093C8C6 /* VibeChallenge-iPhone-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C3FEF3025A7ED830093C8C6 /* VibeChallenge-iPhone-Info.plist */; };
+		78052E3C29A8E37AA320451F /* Pods_VibeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4DBD3C9B518CEB9A8D6D87 /* Pods_VibeChallenge.framework */; };
+		9D234D7F7B1169EB07B61631 /* Pods_VibeChallenge_VibeChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B3C72A6C1D787BC1F6BB8C /* Pods_VibeChallenge_VibeChallengeUITests.framework */; };
+		A205BE612595991100990BB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A205BE592595991100990BB5 /* Preview Assets.xcassets */; };
+		A205BE632595991100990BB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205BE5C2595991100990BB5 /* AppDelegate.swift */; };
+		A205BE6C2595992300990BB5 /* VibeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205BE6A2595992300990BB5 /* VibeChallengeTests.swift */; };
+		A205BE772595993000990BB5 /* VibeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205BE752595993000990BB5 /* VibeChallengeUITests.swift */; };
+		A205BE9225959A6500990BB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A205BE8325959A6500990BB5 /* LaunchScreen.storyboard */; };
+		A205BE9325959A6500990BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A205BE8525959A6500990BB5 /* Main.storyboard */; };
+		A205BE9525959A6500990BB5 /* OnboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A205BE8E25959A6500990BB5 /* OnboardVC.swift */; };
+		A220DA8A259A003500BFC88A /* Profile+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220DA89259A003500BFC88A /* Profile+Extensions.swift */; };
+		A220DAB4259AFA1C00BFC88A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A220DAB3259AFA1C00BFC88A /* Assets.xcassets */; };
+		A2376F9D259C3BA100874CF6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2376F9C259C3BA100874CF6 /* WebKit.framework */; };
+		A29C43762596026900C64415 /* OnLoginSlackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C43752596026900C64415 /* OnLoginSlackVC.swift */; };
+		A29C437B259602E400C64415 /* UserSlackInforVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C437A259602E400C64415 /* UserSlackInforVC.swift */; };
+		A29D7C36259C7CBD003EBD13 /* SlackConfiguration.kt in Resources */ = {isa = PBXBuildFile; fileRef = A29D7C35259C7CBD003EBD13 /* SlackConfiguration.kt */; };
+		A29D7C5D259C7E4B003EBD13 /* SlackConfiguration.kt in Sources */ = {isa = PBXBuildFile; fileRef = A29D7C35259C7CBD003EBD13 /* SlackConfiguration.kt */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A29D7C79259C82BD003EBD13 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D7C78259C82BD003EBD13 /* MainVC.swift */; };
+		A29D7C7D259C94E2003EBD13 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D7C7C259C94E2003EBD13 /* UIImageView+Extensions.swift */; };
+		A2F939CC25A2F02F00E60C94 /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = A2F939CB25A2F02E00E60C94 /* fastlane */; };
+		A2F93A1325A3FA3D00E60C94 /* VibeChallengeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FD60CA259846BE00485BA6 /* VibeChallengeSDK.framework */; };
+		A2F93A1425A3FA3D00E60C94 /* VibeChallengeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2FD60CA259846BE00485BA6 /* VibeChallengeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2F93A3025A5605200E60C94 /* UserSlackInforVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F93A2F25A5605200E60C94 /* UserSlackInforVM.swift */; };
+		A2F93A4A25A5CE4B00E60C94 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F93A4925A5CE4B00E60C94 /* Observable.swift */; };
+		A2F93A5125A5E57200E60C94 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2F93A5325A5E57200E60C94 /* Localizable.strings */; };
+		A2F93A6525A6A58C00E60C94 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F93A6425A6A58C00E60C94 /* String+Extensions.swift */; };
+		E1C210C0BADD6050F7A90356 /* Pods_VibeChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194C3484E869C88004AD9224 /* Pods_VibeChallengeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7555FF92242A565B00829871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7555FF73242A565900829871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7555FF7A242A565900829871;
+			remoteInfo = iosApp;
+		};
+		7555FF9D242A565B00829871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7555FF73242A565900829871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7555FF7A242A565900829871;
+			remoteInfo = iosApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2F93A1525A3FA3E00E60C94 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A2F93A1425A3FA3D00E60C94 /* VibeChallengeSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0DDA822F553A72A200B25E32 /* Pods-VibeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeChallenge.debug.xcconfig"; path = "Target Support Files/Pods-VibeChallenge/Pods-VibeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		194C3484E869C88004AD9224 /* Pods_VibeChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VibeChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B3C72A6C1D787BC1F6BB8C /* Pods_VibeChallenge_VibeChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VibeChallenge_VibeChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A384032198184E6BF3F3D4 /* Pods-VibeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-VibeChallengeTests/Pods-VibeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		457458493045033A23999643 /* Pods-VibeChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-VibeChallengeTests/Pods-VibeChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		5017F3015BFFF3E69C73F6C0 /* Pods-VibeChallenge-VibeChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeChallenge-VibeChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-VibeChallenge-VibeChallengeUITests/Pods-VibeChallenge-VibeChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56F47FA00DC7465D216129B5 /* Pods-VibeChallenge-VibeChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeChallenge-VibeChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-VibeChallenge-VibeChallengeUITests/Pods-VibeChallenge-VibeChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C3FEF3025A7ED830093C8C6 /* VibeChallenge-iPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VibeChallenge-iPhone-Info.plist"; sourceTree = "<group>"; };
+		7555FF7B242A565900829871 /* VibeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7555FF91242A565B00829871 /* VibeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7555FF9C242A565B00829871 /* VibeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7555FFB1242A642300829871 /* shared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared.framework; path = "../VibeChallengeSDK/build/xcode-frameworks/shared.framework"; sourceTree = "<group>"; };
+		A205BE592595991100990BB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A205BE5C2595991100990BB5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A205BE6A2595992300990BB5 /* VibeChallengeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibeChallengeTests.swift; sourceTree = "<group>"; };
+		A205BE752595993000990BB5 /* VibeChallengeUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibeChallengeUITests.swift; sourceTree = "<group>"; };
+		A205BE8125959A6500990BB5 /* VibeChallenge.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = VibeChallenge.entitlements; sourceTree = "<group>"; };
+		A205BE8425959A6500990BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A205BE8625959A6500990BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A205BE8E25959A6500990BB5 /* OnboardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardVC.swift; sourceTree = "<group>"; };
+		A21717DA25A1D70F004F19CB /* Pods_SwiftQRScanner_Example.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_SwiftQRScanner_Example.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SwiftQRScanner-crcfiuedmssdvketxroayzcwxnle/Build/Products/Debug-iphoneos/Pods_SwiftQRScanner_Example.framework"; sourceTree = "<group>"; };
+		A220DA89259A003500BFC88A /* Profile+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+Extensions.swift"; sourceTree = "<group>"; };
+		A220DAB3259AFA1C00BFC88A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2376F88259C398700874CF6 /* VibeChallengeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VibeChallengeSDK.framework; path = ../VibeChallengeSDK/build/bin/iosArm64/debugFramework/VibeChallengeSDK.framework; sourceTree = "<group>"; };
+		A2376F8F259C3AB500874CF6 /* VibeChallengeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VibeChallengeSDK.framework; path = ../VibeChallengeSDK/build/bin/ios/debugFramework/VibeChallengeSDK.framework; sourceTree = "<group>"; };
+		A2376F9C259C3BA100874CF6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A262EAA6259D65C400E7B0E7 /* VibeChallengeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VibeChallengeSDK.framework; path = ../VibeChallengeSDK/build/bin/iosX64/debugFramework/VibeChallengeSDK.framework; sourceTree = "<group>"; };
+		A29C43752596026900C64415 /* OnLoginSlackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnLoginSlackVC.swift; sourceTree = "<group>"; };
+		A29C437A259602E400C64415 /* UserSlackInforVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSlackInforVC.swift; sourceTree = "<group>"; };
+		A29D7C35259C7CBD003EBD13 /* SlackConfiguration.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SlackConfiguration.kt; path = ../VibeChallengeSDK/src/commonMain/kotlin/com/axonvibe/challenge/shared/configutation/SlackConfiguration.kt; sourceTree = "<group>"; };
+		A29D7C78259C82BD003EBD13 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A29D7C7C259C94E2003EBD13 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		A2F939C525A2ED5D00E60C94 /* VibeChallengeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VibeChallengeSDK.framework; path = "../VibeChallengeSDK/build/xcode-frameworks/VibeChallengeSDK.framework"; sourceTree = "<group>"; };
+		A2F939CB25A2F02E00E60C94 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
+		A2F93A2F25A5605200E60C94 /* UserSlackInforVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSlackInforVM.swift; sourceTree = "<group>"; };
+		A2F93A4925A5CE4B00E60C94 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		A2F93A5225A5E57200E60C94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A2F93A6425A6A58C00E60C94 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		A2FD60CA259846BE00485BA6 /* VibeChallengeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VibeChallengeSDK.framework; path = "../VibeChallengeSDK/build/xcode-frameworks/VibeChallengeSDK.framework"; sourceTree = "<group>"; };
+		B39F399EF46DCAA8A2051F19 /* Pods-VibeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VibeChallenge.release.xcconfig"; path = "Target Support Files/Pods-VibeChallenge/Pods-VibeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		DD4DBD3C9B518CEB9A8D6D87 /* Pods_VibeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VibeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7555FF78242A565900829871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F93A1325A3FA3D00E60C94 /* VibeChallengeSDK.framework in Frameworks */,
+				A2376F9D259C3BA100874CF6 /* WebKit.framework in Frameworks */,
+				78052E3C29A8E37AA320451F /* Pods_VibeChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7555FF8E242A565B00829871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C210C0BADD6050F7A90356 /* Pods_VibeChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7555FF99242A565B00829871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D234D7F7B1169EB07B61631 /* Pods_VibeChallenge_VibeChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7555FF72242A565900829871 = {
+			isa = PBXGroup;
+			children = (
+				A2F93A5325A5E57200E60C94 /* Localizable.strings */,
+				A2F939CB25A2F02E00E60C94 /* fastlane */,
+				A2F939C525A2ED5D00E60C94 /* VibeChallengeSDK.framework */,
+				A29D7C34259C7C68003EBD13 /* libiOS */,
+				A205BE562595991100990BB5 /* VibeChallenge */,
+				A205BE692595992300990BB5 /* VibeChallengeTests */,
+				A205BE742595993000990BB5 /* VibeChallengeUITests */,
+				7555FF7C242A565900829871 /* Products */,
+				7555FFB0242A642200829871 /* Frameworks */,
+				A7ECE2B35F32DC93C90CE95C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7555FF7C242A565900829871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7555FF7B242A565900829871 /* VibeChallenge.app */,
+				7555FF91242A565B00829871 /* VibeChallengeTests.xctest */,
+				7555FF9C242A565B00829871 /* VibeChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7555FFB0242A642200829871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A21717DA25A1D70F004F19CB /* Pods_SwiftQRScanner_Example.framework */,
+				A262EAA6259D65C400E7B0E7 /* VibeChallengeSDK.framework */,
+				A2376F9C259C3BA100874CF6 /* WebKit.framework */,
+				A2376F8F259C3AB500874CF6 /* VibeChallengeSDK.framework */,
+				A2FD60CA259846BE00485BA6 /* VibeChallengeSDK.framework */,
+				A2376F88259C398700874CF6 /* VibeChallengeSDK.framework */,
+				7555FFB1242A642300829871 /* shared.framework */,
+				DD4DBD3C9B518CEB9A8D6D87 /* Pods_VibeChallenge.framework */,
+				32B3C72A6C1D787BC1F6BB8C /* Pods_VibeChallenge_VibeChallengeUITests.framework */,
+				194C3484E869C88004AD9224 /* Pods_VibeChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A205BE562595991100990BB5 /* VibeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				A205BE5C2595991100990BB5 /* AppDelegate.swift */,
+				A205BE8825959A6500990BB5 /* Models */,
+				A205BE8A25959A6500990BB5 /* Screens */,
+				A205BE7F25959A6500990BB5 /* CustomViews */,
+				A205BE9025959A6500990BB5 /* Services */,
+				A205BE8925959A6500990BB5 /* Helpers */,
+				A220DA88259A001C00BFC88A /* Extensions */,
+				A205BE8025959A6500990BB5 /* Resources */,
+				A205BE582595991100990BB5 /* Preview Content */,
+			);
+			path = VibeChallenge;
+			sourceTree = "<group>";
+		};
+		A205BE582595991100990BB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A205BE592595991100990BB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A205BE692595992300990BB5 /* VibeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A205BE6A2595992300990BB5 /* VibeChallengeTests.swift */,
+			);
+			path = VibeChallengeTests;
+			sourceTree = "<group>";
+		};
+		A205BE742595993000990BB5 /* VibeChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A205BE752595993000990BB5 /* VibeChallengeUITests.swift */,
+			);
+			path = VibeChallengeUITests;
+			sourceTree = "<group>";
+		};
+		A205BE7F25959A6500990BB5 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		A205BE8025959A6500990BB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C3FEF3025A7ED830093C8C6 /* VibeChallenge-iPhone-Info.plist */,
+				A220DAB3259AFA1C00BFC88A /* Assets.xcassets */,
+				A205BE8125959A6500990BB5 /* VibeChallenge.entitlements */,
+				A205BE8325959A6500990BB5 /* LaunchScreen.storyboard */,
+				A205BE8525959A6500990BB5 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A205BE8825959A6500990BB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2F93A4925A5CE4B00E60C94 /* Observable.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A205BE8925959A6500990BB5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A205BE8A25959A6500990BB5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A2ECD60825987DFA00C5C109 /* Slack */,
+				A29C4379259602AE00C64415 /* Scan */,
+				A205BE8B25959A6500990BB5 /* Result */,
+				A205BE8C25959A6500990BB5 /* Answer */,
+				A205BE8D25959A6500990BB5 /* Onboard */,
+				A29D7C78259C82BD003EBD13 /* MainVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A205BE8B25959A6500990BB5 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		A205BE8C25959A6500990BB5 /* Answer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Answer;
+			sourceTree = "<group>";
+		};
+		A205BE8D25959A6500990BB5 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				A205BE8E25959A6500990BB5 /* OnboardVC.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		A205BE9025959A6500990BB5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A220DA88259A001C00BFC88A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A220DA89259A003500BFC88A /* Profile+Extensions.swift */,
+				A29D7C7C259C94E2003EBD13 /* UIImageView+Extensions.swift */,
+				A2F93A6425A6A58C00E60C94 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A29C4379259602AE00C64415 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				A29C437A259602E400C64415 /* UserSlackInforVC.swift */,
+				A2F93A2F25A5605200E60C94 /* UserSlackInforVM.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		A29D7C34259C7C68003EBD13 /* libiOS */ = {
+			isa = PBXGroup;
+			children = (
+				A29D7C35259C7CBD003EBD13 /* SlackConfiguration.kt */,
+			);
+			name = libiOS;
+			sourceTree = "<group>";
+		};
+		A2ECD60825987DFA00C5C109 /* Slack */ = {
+			isa = PBXGroup;
+			children = (
+				A29C43752596026900C64415 /* OnLoginSlackVC.swift */,
+			);
+			path = Slack;
+			sourceTree = "<group>";
+		};
+		A7ECE2B35F32DC93C90CE95C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DDA822F553A72A200B25E32 /* Pods-VibeChallenge.debug.xcconfig */,
+				B39F399EF46DCAA8A2051F19 /* Pods-VibeChallenge.release.xcconfig */,
+				56F47FA00DC7465D216129B5 /* Pods-VibeChallenge-VibeChallengeUITests.debug.xcconfig */,
+				5017F3015BFFF3E69C73F6C0 /* Pods-VibeChallenge-VibeChallengeUITests.release.xcconfig */,
+				40A384032198184E6BF3F3D4 /* Pods-VibeChallengeTests.debug.xcconfig */,
+				457458493045033A23999643 /* Pods-VibeChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7555FF7A242A565900829871 /* VibeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7555FFA5242A565B00829871 /* Build configuration list for PBXNativeTarget "VibeChallenge" */;
+			buildPhases = (
+				8FDCB9E841F02ED9AA582475 /* [CP] Check Pods Manifest.lock */,
+				7555FFB5242A651A00829871 /* ShellScript */,
+				7555FF77242A565900829871 /* Sources */,
+				7555FF78242A565900829871 /* Frameworks */,
+				7555FF79242A565900829871 /* Resources */,
+				A29C431825959CCD00C64415 /* swiftlint */,
+				A2F93A1525A3FA3E00E60C94 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VibeChallenge;
+			productName = iosApp;
+			productReference = 7555FF7B242A565900829871 /* VibeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7555FF90242A565B00829871 /* VibeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7555FFA8242A565B00829871 /* Build configuration list for PBXNativeTarget "VibeChallengeTests" */;
+			buildPhases = (
+				910E3665747EE0D859C5093B /* [CP] Check Pods Manifest.lock */,
+				7555FF8D242A565B00829871 /* Sources */,
+				7555FF8E242A565B00829871 /* Frameworks */,
+				7555FF8F242A565B00829871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7555FF93242A565B00829871 /* PBXTargetDependency */,
+			);
+			name = VibeChallengeTests;
+			productName = iosAppTests;
+			productReference = 7555FF91242A565B00829871 /* VibeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7555FF9B242A565B00829871 /* VibeChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7555FFAB242A565B00829871 /* Build configuration list for PBXNativeTarget "VibeChallengeUITests" */;
+			buildPhases = (
+				1A3E70AC605020065286D029 /* [CP] Check Pods Manifest.lock */,
+				7555FF98242A565B00829871 /* Sources */,
+				7555FF99242A565B00829871 /* Frameworks */,
+				7555FF9A242A565B00829871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7555FF9E242A565B00829871 /* PBXTargetDependency */,
+			);
+			name = VibeChallengeUITests;
+			productName = iosAppUITests;
+			productReference = 7555FF9C242A565B00829871 /* VibeChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7555FF73242A565900829871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = orgName;
+				TargetAttributes = {
+					7555FF7A242A565900829871 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7555FF90242A565B00829871 = {
+						CreatedOnToolsVersion = 11.3.1;
+						ProvisioningStyle = Manual;
+						TestTargetID = 7555FF7A242A565900829871;
+					};
+					7555FF9B242A565B00829871 = {
+						CreatedOnToolsVersion = 11.3.1;
+						ProvisioningStyle = Manual;
+						TestTargetID = 7555FF7A242A565900829871;
+					};
+				};
+			};
+			buildConfigurationList = 7555FF76242A565900829871 /* Build configuration list for PBXProject "VibeChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7555FF72242A565900829871;
+			productRefGroup = 7555FF7C242A565900829871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7555FF7A242A565900829871 /* VibeChallenge */,
+				7555FF90242A565B00829871 /* VibeChallengeTests */,
+				7555FF9B242A565B00829871 /* VibeChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7555FF79242A565900829871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F939CC25A2F02F00E60C94 /* fastlane in Resources */,
+				A205BE9225959A6500990BB5 /* LaunchScreen.storyboard in Resources */,
+				A205BE612595991100990BB5 /* Preview Assets.xcassets in Resources */,
+				6C3FEF3125A7ED830093C8C6 /* VibeChallenge-iPhone-Info.plist in Resources */,
+				A2F93A5125A5E57200E60C94 /* Localizable.strings in Resources */,
+				A29D7C36259C7CBD003EBD13 /* SlackConfiguration.kt in Resources */,
+				A220DAB4259AFA1C00BFC88A /* Assets.xcassets in Resources */,
+				A205BE9325959A6500990BB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7555FF8F242A565B00829871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7555FF9A242A565B00829871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A3E70AC605020065286D029 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VibeChallenge-VibeChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7555FFB5242A651A00829871 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/..\"\n./gradlew :VibeChallengeSDK:packForXCode -PXCODE_CONFIGURATION=${CONFIGURATION}\n";
+		};
+		8FDCB9E841F02ED9AA582475 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VibeChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		910E3665747EE0D859C5093B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VibeChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A29C431825959CCD00C64415 /* swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7555FF77242A565900829871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F93A4A25A5CE4B00E60C94 /* Observable.swift in Sources */,
+				A29D7C5D259C7E4B003EBD13 /* SlackConfiguration.kt in Sources */,
+				A205BE9525959A6500990BB5 /* OnboardVC.swift in Sources */,
+				A205BE632595991100990BB5 /* AppDelegate.swift in Sources */,
+				A2F93A6525A6A58C00E60C94 /* String+Extensions.swift in Sources */,
+				A29C43762596026900C64415 /* OnLoginSlackVC.swift in Sources */,
+				A29D7C7D259C94E2003EBD13 /* UIImageView+Extensions.swift in Sources */,
+				A2F93A3025A5605200E60C94 /* UserSlackInforVM.swift in Sources */,
+				A220DA8A259A003500BFC88A /* Profile+Extensions.swift in Sources */,
+				A29C437B259602E400C64415 /* UserSlackInforVC.swift in Sources */,
+				A29D7C79259C82BD003EBD13 /* MainVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7555FF8D242A565B00829871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A205BE6C2595992300990BB5 /* VibeChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7555FF98242A565B00829871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A205BE772595993000990BB5 /* VibeChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7555FF93242A565B00829871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7555FF7A242A565900829871 /* VibeChallenge */;
+			targetProxy = 7555FF92242A565B00829871 /* PBXContainerItemProxy */;
+		};
+		7555FF9E242A565B00829871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7555FF7A242A565900829871 /* VibeChallenge */;
+			targetProxy = 7555FF9D242A565B00829871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A205BE8325959A6500990BB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A205BE8425959A6500990BB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A205BE8525959A6500990BB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A205BE8625959A6500990BB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2F93A5325A5E57200E60C94 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F93A5225A5E57200E60C94 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7555FFA3242A565B00829871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		7555FFA4242A565B00829871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7555FFA6242A565B00829871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDA822F553A72A200B25E32 /* Pods-VibeChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VibeChallenge/Resources/VibeChallenge.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_ASSET_PATHS = "\"VibeChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = SAHXW3Y4VT;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../VibeChallengeSDK/build/xcode-frameworks";
+				INFOPLIST_FILE = "VibeChallenge/Resources/VibeChallenge-iPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axonvibe.challenge.mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Vibe Challenge Mobile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		7555FFA7242A565B00829871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39F399EF46DCAA8A2051F19 /* Pods-VibeChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VibeChallenge/Resources/VibeChallenge.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_ASSET_PATHS = "\"VibeChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = SAHXW3Y4VT;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../VibeChallengeSDK/build/xcode-frameworks";
+				INFOPLIST_FILE = "VibeChallenge/Resources/VibeChallenge-iPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.axonvibe.challenge.mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Vibe Challenge Mobile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_WORKSPACE = YES;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+		7555FFA9242A565B00829871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40A384032198184E6BF3F3D4 /* Pods-VibeChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				INFOPLIST_FILE = VibeChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.iosAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VibeChallenge.app/VibeChallenge";
+			};
+			name = Debug;
+		};
+		7555FFAA242A565B00829871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 457458493045033A23999643 /* Pods-VibeChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				INFOPLIST_FILE = VibeChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.iosAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VibeChallenge.app/VibeChallenge";
+			};
+			name = Release;
+		};
+		7555FFAC242A565B00829871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F47FA00DC7465D216129B5 /* Pods-VibeChallenge-VibeChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				INFOPLIST_FILE = VibeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.iosAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iosApp;
+			};
+			name = Debug;
+		};
+		7555FFAD242A565B00829871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5017F3015BFFF3E69C73F6C0 /* Pods-VibeChallenge-VibeChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				INFOPLIST_FILE = VibeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.iosAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iosApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7555FF76242A565900829871 /* Build configuration list for PBXProject "VibeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7555FFA3242A565B00829871 /* Debug */,
+				7555FFA4242A565B00829871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7555FFA5242A565B00829871 /* Build configuration list for PBXNativeTarget "VibeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7555FFA6242A565B00829871 /* Debug */,
+				7555FFA7242A565B00829871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7555FFA8242A565B00829871 /* Build configuration list for PBXNativeTarget "VibeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7555FFA9242A565B00829871 /* Debug */,
+				7555FFAA242A565B00829871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7555FFAB242A565B00829871 /* Build configuration list for PBXNativeTarget "VibeChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7555FFAC242A565B00829871 /* Debug */,
+				7555FFAD242A565B00829871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7555FF73242A565900829871 /* Project object */;
+}

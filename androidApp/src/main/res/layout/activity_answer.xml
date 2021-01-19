@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".main.view.AnswerActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_horizontal_center_answer_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@dimen/pc_0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_vertical_center_answer_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@dimen/pc_0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_vertical_left_answer_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@dimen/pc_0.06" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_vertical_right_answer_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="@dimen/pc_0.94" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_horizontal_bottom_answer_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@dimen/pc_0.94" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_horizontal_top_answer_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="@dimen/pc_0.06" />
+
+    <Button
+        android:id="@+id/btn_answer_blue_answer_activity"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="@dimen/dp_0"
+        android:layout_marginEnd="@dimen/dp_4"
+        android:layout_marginBottom="@dimen/dp_4"
+        android:backgroundTint="@color/blue"
+        android:insetTop="@dimen/dp_0"
+        android:insetBottom="@dimen/dp_0"
+        android:text="@string/answer_screen_answer_a_tv"
+        app:layout_constraintBottom_toBottomOf="@id/gl_horizontal_center_answer_activity"
+        app:layout_constraintEnd_toEndOf="@id/gl_vertical_center_answer_activity"
+        app:layout_constraintStart_toStartOf="@id/gl_vertical_left_answer_activity"
+        app:layout_constraintTop_toTopOf="@id/gl_horizontal_top_answer_activity" />
+
+    <Button
+        android:id="@+id/btn_answer_green_answer_activity"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="@dimen/dp_0"
+        android:layout_marginStart="@dimen/dp_4"
+        android:layout_marginBottom="@dimen/dp_4"
+        android:backgroundTint="@color/green_dark"
+        android:insetTop="@dimen/dp_0"
+        android:insetBottom="@dimen/dp_0"
+        android:text="@string/answer_screen_answer_b_tv"
+        app:layout_constraintBottom_toBottomOf="@id/gl_horizontal_center_answer_activity"
+        app:layout_constraintEnd_toEndOf="@id/gl_vertical_right_answer_activity"
+        app:layout_constraintStart_toStartOf="@id/gl_vertical_center_answer_activity"
+        app:layout_constraintTop_toTopOf="@id/gl_horizontal_top_answer_activity" />
+
+    <Button
+        android:id="@+id/btn_answer_yellow_answer_activity"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="@dimen/dp_0"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_marginEnd="@dimen/dp_4"
+        android:backgroundTint="@color/yellow"
+        android:insetTop="@dimen/dp_0"
+        android:insetBottom="@dimen/dp_0"
+        android:text="@string/answer_screen_answer_c_tv"
+        app:layout_constraintBottom_toBottomOf="@id/gl_horizontal_bottom_answer_activity"
+        app:layout_constraintEnd_toEndOf="@id/gl_vertical_center_answer_activity"
+        app:layout_constraintStart_toStartOf="@id/gl_vertical_left_answer_activity"
+        app:layout_constraintTop_toTopOf="@id/gl_horizontal_center_answer_activity" />
+
+    <Button
+        android:id="@+id/btn_answer_red_answer_activity"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="@dimen/dp_0"
+        android:layout_marginStart="@dimen/dp_4"
+        android:layout_marginTop="@dimen/dp_4"
+        android:backgroundTint="@color/red"
+        android:insetTop="@dimen/dp_0"
+        android:insetBottom="@dimen/dp_0"
+        android:text="@string/answer_screen_answer_d_tv"
+        app:layout_constraintBottom_toBottomOf="@id/gl_horizontal_bottom_answer_activity"
+        app:layout_constraintEnd_toEndOf="@id/gl_vertical_right_answer_activity"
+        app:layout_constraintStart_toStartOf="@id/gl_vertical_center_answer_activity"
+        app:layout_constraintTop_toTopOf="@id/gl_horizontal_center_answer_activity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

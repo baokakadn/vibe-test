@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  VibeChallenge
+
+  Created by Thien Nguyen Duc on 06/01/2021.
+  Copyright © 2021 orgName. All rights reserved.
+*/
+
+"login_failed_popup.title" = "Login failed!";
+"login_failed_popup.message" = "Fail to login with Slack via Vibe Challenge";
+"general.ok" = "OK";
+"general.cancel" = "Cancel";

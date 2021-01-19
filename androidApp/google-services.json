@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "130622030386",
+    "firebase_url": "https://fir-3668f.firebaseio.com",
+    "project_id": "fir-3668f",
+    "storage_bucket": "fir-3668f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130622030386:android:d23eb0d132bf7461e4322b",
+        "android_client_info": {
+          "package_name": "com.axonvibe.challenge.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130622030386-556591gp9nf8qvvu8rujpg9s0bt883kp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkGJ-fqAiRZochJXq746k6HkXqflFUgeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130622030386-556591gp9nf8qvvu8rujpg9s0bt883kp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "130622030386-097do6vvncc18q67rvut7gp9ctr100uf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "asd"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,144 @@
+fastlane_version "2.140.0"
+
+default_platform :ios
+
+def truncate(string, max)
+  string.length > max ? "#{string[0...max-3]}..." : string
+end
+
+lane :make_changelog do
+  changelog = changelog_from_git_commits(
+    between: [ENV['GIT_PREVIOUS_SUCCESSFUL_COMMIT'] || "HEAD^", "HEAD"],
+    pretty: "- %an: %s",
+    merge_commit_filtering: "exclude_merges"
+  ).sub(/[\u{1F300}-\u{1F6FF}]/, '')
+
+  # AppCenter just support release notes with max 5000 characters
+  Actions.lane_context[SharedValues::FL_CHANGELOG] = truncate(changelog, 4996)
+  puts Actions.lane_context[SharedValues::FL_CHANGELOG]
+  changelog
+end
+
+# Testing lane
+# Usage: fastlane testing scheme:"VibeChallenge"
+lane :testing do |options|
+
+  # Remove old report
+  sh("rm -rf test_output/")
+  # Remove old ProfileData folder which Coverage.profdata was placed
+  sh("rm -rf DerivedData/Build/ProfileData/")
+
+  
+
+  # List item ignore
+  # ('*Refactor/*.swift') the folder is contain code refactor so we ignore it
+  filesIsIgnore = [
+    'project.pbxproj',
+    '*.h',
+    '*.storyboard',
+    '*.xib',
+    '*.plist',
+    '*VC.swift',
+    '*VC+*.swift',
+    '*ViewController.swift',
+    '*NavigationController.swift',
+    '*Extensions.swift',
+    '*Cell.swift',
+    '*View.swift',
+    '*Test*.swift',
+    '*Repo.swift',
+    '*CoreDataStack.swift',
+    '*CoreDataClass.swift',
+    '*CoreDataProperties.swift',
+    '*Label.swift',
+    '*Button.swift',
+    '*View.swift',
+    '*Button.swift',
+    '*NavigationBar.swift',
+    '*DataSource.swift',
+    '*Delegate.swift',
+    '*Model.swift',
+    '*FeatureFlagService.swift'
+  ]
+
+  coverageFilesToIgnore = filesIsIgnore
+
+  # get scheme to run test
+  schemeToTest = "VibeChallenge" #default scheme
+  if options[:scheme]
+    schemeToTest = options[:scheme]
+  end
+
+  # run tests for iosApp
+    run_tests(
+      workspace: "VibeChallenge.xcworkspace",
+      scheme: "#{schemeToTest}",
+      clean: true,
+      output_files: "#{schemeToTest.gsub(' ','')}_report.html",
+      configuration: "Debug",
+    )
+    
+  # generate code coverage report
+  #  slather(
+  #      output_directory: "./fastlane/test_output/coverage/#{schemeToTest.gsub(' ','')}Test",
+  #      proj: "VibeChallenge.xcodeproj",
+  #      workspace: "VibeChallenge.xcworkspace",
+  #      scheme: "#{schemeToTest}",
+  #      build_directory: "DerivedData/Build",
+  #      ignore: coverageFilesToIgnore,
+  #      cobertura_xml: true,
+  #      jenkins: true
+  #  )
+end
+
+desc "✈️Beta App Release"
+
+lane :beta_release do |options|
+
+    buildNumber = options[:build_number]
+    
+    # 👉 build number increment
+    increment_build_number(
+        xcodeproj: "VibeChallenge.xcodeproj",
+        build_number: options[:build_number]
+    )
+    
+    # 👉 disable automatic code signing
+    disable_automatic_code_signing(path: "VibeChallenge.xcodeproj")
+    
+    # 👉 build app
+    gym(
+      scheme: "VibeChallenge",
+      export_method: "enterprise",
+      workspace: "VibeChallenge.xcworkspace",
+      include_bitcode: false,
+      export_options: {
+        provisioningProfiles: {
+          "com.axonvibe.challenge.mobile" => "Vibe Challenge Mobile",
+        }
+      }
+    )
+            
+    # 👉 make_changelog_from_jenkins
+    change_log = make_changelog
+
+    puts change_log
+    
+    # 👉 Upload to AppCenter
+    appCenterToken = ENV["APPCENTER_API_TOKEN"] || '1e6138ad29a54fcf9fad1c25159a1e0b30b09e4d'
+
+    if appCenterToken.to_s == ''
+      puts "⚠️  There's no AppCenter token provided! Skipped AppCenter uploading step."
+    else
+      appcenter_upload(
+        api_token: appCenterToken,
+        owner_name: "axon-vibe",
+        app_name: "Vibe-Challenge-1",
+        destinations: "ChallangeVN",
+        release_notes: change_log
+      )
+    end
+
+    # 👉 Clean build artifacts
+    clean_build_artifacts
+end

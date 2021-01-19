@@ -1,0 +1,60 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+
+- DerivedData
+- Pods
+  # Swift Package Manager
+- .build
+- Sources
+
+# line_length: 300
+file_length:
+  warning: 500
+  error: 700
+type_body_length:
+  warning: 300
+  error: 500
+type_name:
+  max_length:
+    warning: 45
+    error: 60
+  min_length:
+    warning: 3
+private_outlet:
+  allow_private_set: true
+  allows_public_getter: true
+
+warning_threshold: 5
+
+disabled_rules:
+  - todo
+  - nesting
+  - line_length
+  - large_tuple
+  - weak_delegate
+  - identifier_name
+  - function_body_length
+  - cyclomatic_complexity
+  - function_parameter_count
+  - trailing_whitespace
+  - unused_optional_binding
+  - class_delegate_protocol
+  - redundant_optional_initialization
+  - multiple_closures_with_trailing_closure
+  - implicit_getter
+  - computed_accessors_order
+  
+opt_in_rules:
+  - unused_import
+  - private_action
+  - private_outlet
+  - yoda_condition
+  - closure_spacing
+  - cyclomatic_complexity
+  - closure_end_indentation
+  - operator_usage_whitespace
+#  - empty_count
+#  - object_literal
+#  - contains_over_first_not_nil
+#  - contains_over_filter_is_empty
+#  - contains_over_range_nil_comparison
+

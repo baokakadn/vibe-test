@@ -1,0 +1,20 @@
+<resources>
+    <string name="all_app_name">Vibe Challenge</string>
+    <string name="success_auth_screen_logout">Logout</string>
+    <string name="main_screen_login">Login with Slack</string>
+    <string name="success_auth_screen_welcome_tv">Welcome !!</string>
+    <string name="success_auth_screen_scan">Scan</string>
+    <string name="login_failed">Failed to login, please try again!!!</string>
+    <string name="waiting_screen_you_are_in_tv">You\'re in!</string>
+    <string name="waiting_screen_please_waiting_tv">Please waiting for session start</string>
+    <string name="scan_screen_clear_memories_message">Permission is disable, clear app\'s memories and reopen it again!</string>
+    <string name="answer_screen_answer_a_tv">A</string>
+    <string name="answer_screen_answer_b_tv">B</string>
+    <string name="answer_screen_answer_c_tv">C</string>
+    <string name="answer_screen_answer_d_tv">D</string>
+    <string name="fragment_answer_correct_congratulation">Congratulation !</string>
+    <string name="fragment_answer_wrong_good_luck">Good luck next time !</string>
+    <string name="dialogue_waiting_question_finish">Waiting for question to finish!</string>
+    <string name="dialogue_waiting_question_finish_done">DONE!</string>
+
+</resources>
