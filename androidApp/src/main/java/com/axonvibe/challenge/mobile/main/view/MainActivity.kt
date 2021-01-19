@@ -13,15 +13,14 @@ import com.axonvibe.challenge.shared.viewModel.profile.ProfileViewModel
 import com.axonvibe.challenge.shared.viewModel.profile.state.ProfileState
 import com.axonvibe.challenge.shared.viewModel.profile.state.SuccessGetProfileState
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.concurrent.atomic.AtomicInteger
 
 class MainActivity : AppCompatActivity() {
     lateinit var profileViewModel: ProfileViewModel
+    var activitiesLaunched: AtomicInteger = AtomicInteger(0)
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        if (!isTaskRoot) {
-            finish()
-            return
-        }
+        if (activitiesLaunched.incrementAndGet() > 1) { finish() }
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         configView()
@@ -73,6 +72,11 @@ class MainActivity : AppCompatActivity() {
         val alertDialog = AlertMessageDialogFragment.newInstance(message)
         alertDialog.isCancelable = false
         alertDialog.show(supportFragmentManager, AlertMessageDialogFragment.TAG)
+    }
+
+    override fun onDestroy() {
+        activitiesLaunched.getAndDecrement()
+        super.onDestroy()
     }
 
     companion object {
