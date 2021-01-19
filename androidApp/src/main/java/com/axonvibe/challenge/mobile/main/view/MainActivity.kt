@@ -17,10 +17,8 @@ import java.util.concurrent.atomic.AtomicInteger
 
 class MainActivity : AppCompatActivity() {
     lateinit var profileViewModel: ProfileViewModel
-    var activitiesLaunched: AtomicInteger = AtomicInteger(0)
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        if (activitiesLaunched.incrementAndGet() > 1) { finish() }
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         configView()
@@ -61,6 +59,7 @@ class MainActivity : AppCompatActivity() {
         btn_login_main_screen.setSafeOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
+            finish()
         }
         val message = intent.getStringExtra(MESSAGE)
         message?.let {
@@ -72,11 +71,6 @@ class MainActivity : AppCompatActivity() {
         val alertDialog = AlertMessageDialogFragment.newInstance(message)
         alertDialog.isCancelable = false
         alertDialog.show(supportFragmentManager, AlertMessageDialogFragment.TAG)
-    }
-
-    override fun onDestroy() {
-        activitiesLaunched.getAndDecrement()
-        super.onDestroy()
     }
 
     companion object {
