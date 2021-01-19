@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-iosarm64:klib:1.3.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-iosarm64/1.3.2/3dcdf595fb337d6d7d486a2fd07bd9ae6e1e2d0a/kotlinx-coroutines-core.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-iosarm64/1.3.2/2ec9ca619e0e519f84190a4de8f969d7e77de91f/kotlinx-coroutines-core-iosarm64-1.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

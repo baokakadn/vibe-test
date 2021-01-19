@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test.iml" filepath="$PROJECT_DIR$/.idea/modules/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VibeChallengeSDK/test.VibeChallengeSDK.iml" filepath="$PROJECT_DIR$/.idea/modules/VibeChallengeSDK/test.VibeChallengeSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VibeChallengeSDK/test.VibeChallengeSDK.androidx_lifecycle_version.iml" filepath="$PROJECT_DIR$/.idea/modules/VibeChallengeSDK/test.VibeChallengeSDK.androidx_lifecycle_version.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VibeChallengeSDK/test.VibeChallengeSDK.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/VibeChallengeSDK/test.VibeChallengeSDK.commonMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VibeChallengeSDK/test.VibeChallengeSDK.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/VibeChallengeSDK/test.VibeChallengeSDK.commonTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VibeChallengeSDK/test.VibeChallengeSDK.iosMain.iml" filepath="$PROJECT_DIR$/.idea/modules/VibeChallengeSDK/test.VibeChallengeSDK.iosMain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VibeChallengeSDK/test.VibeChallengeSDK.iosTest.iml" filepath="$PROJECT_DIR$/.idea/modules/VibeChallengeSDK/test.VibeChallengeSDK.iosTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidApp/test.androidApp.iml" filepath="$PROJECT_DIR$/.idea/modules/androidApp/test.androidApp.iml" />
+    </modules>
+  </component>
+</project>

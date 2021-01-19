@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: dev.icerock.moko:mvvm-metadata:0.3.1" type="kotlin.common">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.icerock.moko/mvvm-metadata/0.3.1/c7aafde5535cd750f187ff602c4da983054e1c93/mvvm-metadata-0.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.icerock.moko/mvvm-metadata/0.3.1/ae36e39c1ce6ae66b52350350463007c556a8153/mvvm-metadata-0.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

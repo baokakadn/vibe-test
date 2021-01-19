@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":VibeChallengeSDK" external.linked.project.path="$MODULE_DIR$/../../../VibeChallengeSDK" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="test" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":VibeChallengeSDK" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="3.5.2" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="3.5.2" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/androidMain/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/androidMain/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidMain/res;file://$MODULE_DIR$/../../../VibeChallengeSDK/src/debug/res;file://$MODULE_DIR$/../../../VibeChallengeSDK/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../VibeChallengeSDK/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidTest/res;file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidTestDebug/res;file://$MODULE_DIR$/../../../VibeChallengeSDK/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../VibeChallengeSDK/build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false" isTestModule="false" externalProjectId=":VibeChallengeSDK" pureKotlinSourceFolders="$MODULE_DIR$/../../../VibeChallengeSDK/src/androidDebug/kotlin;/Users/thbao/Desktop/test/VibeChallengeSDK/src/debug/kotlin;/Users/thbao/Desktop/test/VibeChallengeSDK/src/debug/java;/Users/thbao/Desktop/test/VibeChallengeSDK/src/androidDebugAndroidTest/kotlin;/Users/thbao/Desktop/test/VibeChallengeSDK/src/androidDebugUnitTest/kotlin;/Users/thbao/Desktop/test/VibeChallengeSDK/src/androidRelease/kotlin;/Users/thbao/Desktop/test/VibeChallengeSDK/src/release/kotlin;/Users/thbao/Desktop/test/VibeChallengeSDK/src/release/java;/Users/thbao/Desktop/test/VibeChallengeSDK/src/androidReleaseUnitTest/kotlin;/Users/thbao/Desktop/test/VibeChallengeSDK/src/iosMain/kotlin;/Users/thbao/Desktop/test/VibeChallengeSDK/src/iosMain/kotlin;/Users/thbao/Desktop/test/VibeChallengeSDK/src/commonMain/kotlin">
+        <sourceSets>
+          <sourceSet>test.VibeChallengeSDK.commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../VibeChallengeSDK/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e8e75a59c7381607d24f22c7f85c74bd/jetified-kotlinx-coroutines-android-1.3.2.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime/0.13.0/4737a6b6dbb62b3d1460e083afb3099032794fe9/kotlinx-serialization-runtime-0.13.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-android/1.2.5/333efbc23b74cdbbaacaf59c11b663ff630478ac/ktor-client-android-1.2.5.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/1.2.5/7d5b6f6d266ed40c6143b78c885b72476c8cd567/ktor-client-core-jvm-1.2.5.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio-jvm/1.2.5/8cf37d83e72c5f67415fab99824c103cf527e16c/ktor-http-cio-jvm-1.2.5.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-network/1.2.5/e054122d0c2e542b459856d9670b40b2e57d565f/ktor-network-1.2.5.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.2.5/3fe471ebcc626c29f22c198489b95145e0dc7e07/ktor-http-jvm-1.2.5.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/1.2.5/6126a2eeaa552d38ae9fb31250e02dca224d3f83/ktor-utils-jvm-1.2.5.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io-jvm/0.1.15/a10eb1221c38c2480543a91d1f39a9761a225700/kotlinx-coroutines-io-jvm-0.1.15.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.3.2/a8566a81c79d3d713b7d28229109e9554bfca971/kotlinx-coroutines-jdk8-1.3.2.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.2/c14f0ab931be503b44a600693df8b3f67b0af0f3/kotlinx-coroutines-core-1.3.2.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-jvm/0.1.15/495198b6f32de360bc87a047de1b3a5b1a8403f9/kotlinx-io-jvm-0.1.15.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.50/bf65725d4ae2cf00010d84e945fcbc201f590e11/kotlin-stdlib-jdk8-1.3.50.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.50/50ad05ea1c2595fb31b800e76db464d08d599af3/kotlin-stdlib-jdk7-1.3.50.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-serialization/1.2.5/d291edbc9db9d06e5a9ea3062b8e6836c06dda0d/ktor-client-serialization-1.2.5.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-json/1.2.5/7093f1e100f4e42273089e2ea89ef739a8ec6aaf/ktor-client-json-1.2.5.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core/1.2.5/ffe37d9be01b15e8ba6c89d16d4e25f551a2175c/ktor-client-core-1.2.5.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/77c41383e2d2a80fed33a56eb252e46c/mvvm-debug-api.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio/1.2.5/abee6d98d153fb30a9eebc4f3979ef5490e3d05e/ktor-http-cio-1.2.5.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http/1.2.5/85281719152e4a691db1926750412f5821b22262/ktor-http-1.2.5.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.2.5/ae6161c95f16945140f27c5cbbf3c7a2061def34/ktor-utils-1.2.5.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io/0.1.15/c6207b8fc281f8480848032d09189360b20d1c8e/kotlinx-coroutines-io-0.1.15.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.3.2/a3f262e6afbcd3a3031e26fdd4d30a6a8b5f5695/kotlinx-coroutines-core-common-1.3.2.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime-common/0.13.0/de1deb3d97dced6bea712227b1e611b6bfdbcd7e/kotlinx-serialization-runtime-common-0.13.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.github.florent37/multiplatform-preferences/1.0.0/cefae10aaab16e6291d189ddb4e4bbf5eccbaad3/multiplatform-preferences-1.0.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io/0.1.15/cd1dd900f6df56e47ba8d53693fcc48968f257ad/kotlinx-io-0.1.15.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/928bd97f80db7c2ccec65266ec2712a8/core-debug-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/4098819a4c0e0d089e20c09db9b75901/resources-debug-api.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/739345cd43f598aba541f58c360699f8/lifecycle-extensions-2.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/59ae7a56546f90ddc0dd713da1d56522/multiplatform-preferences-android-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/45c648799aab3c9251c69e498579750d/firebase-core-17.3.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/df6e44ea4ad294cca2635cd7eda58134/jetified-firebase-firestore-20.1.0-api.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.kodein.di/kodein-di-erased-jvm/6.4.1/b8fe4dc7404c029cbd70a41bf3019a0ab919dda/kodein-di-erased-jvm-6.4.1.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/5cc48490f5e856f37f007a238c0120f0/lifecycle-process-2.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/3ef14897c21c574c99e4523b47dc7ad7/lifecycle-service-2.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/064bab38708a27506a0b7c3211685ece/firebase-auth-interop-18.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/6b1596ad948ada81b6a2e693f3a64385/firebase-analytics-17.3.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/4ea179183f79cb3ad787aa056f87548d/play-services-measurement-api-17.3.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/3321c37824a100a884fa31b0f195c867/firebase-iid-20.0.2-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/f226f40523aa3b9d29d83ca65364c1fd/firebase-iid-interop-17.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/b79276f72eac234e42eabcebe3c36d08/play-services-base-17.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/d9bede4cba2dd8bf22c9c1e206c82b5c/jetified-firebase-common-19.3.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/db2cd4fc6911ae18d6208daad1f75c0b/play-services-tasks-17.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/3f002a5fba4d040902d962f05fbd2cc7/play-services-measurement-17.3.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/ccd7d1f63df6af2bd6317c9f82950966/play-services-measurement-sdk-17.3.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/f4704439d681a8c3088adbb9ae31eea5/play-services-measurement-impl-17.3.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/e23ee16f87261d387ac097935d14f6d5/play-services-measurement-sdk-api-17.3.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/3b2e813475bc8c76e50c4a2448272b40/play-services-measurement-base-17.3.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/64a4a871ddbe740cf1acbb454553656b/play-services-stats-17.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/29a9ccca8146ac040eeb881318d1fe2c/firebase-measurement-connector-18.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/97aed81447a1e7fad2dd9f96e4e2f93b/play-services-ads-identifier-17.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/d92d59c21cb688273f8c666704f1f954/jetified-play-services-basement-17.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/0951ef31db5d303e1cb1ae121a9b5c41/fragment-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/908c4a36676ae8fb5c8b0a8cd57cef25/legacy-support-core-ui-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/ecaca3c829535f32d11bb27cd30eb927/legacy-support-core-utils-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/34d238af533c2c0dcbef9622ca7b0740/loader-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/0482dd2f352ad318f2b31a3a88497adc/viewpager-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/a232b0b8dc951a3c5204dcf1e48f356d/coordinatorlayout-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/26e39bef4bd6ad190eff26503b0b8f7e/drawerlayout-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/f112b0ef8eb7e570bbfad9d70bdd0125/slidingpanelayout-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/7a4e9c3ed825a81907c3c0768b5e7006/customview-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/1bc4f63e5d367bf356c34bc17cf3f440/swiperefreshlayout-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/cdb9d585cfc5ad69171a37f60f6aedf8/asynclayoutinflater-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/969284d500d13d41ec44a696dd208962/core-1.0.1-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/fef6044e2cf021bf52c5773dde34b405/databinding-adapters-3.5.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/2bccbcc23c9902665db73d064d4257e2/databinding-runtime-3.5.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/57c888a24228dcffe1911ff86f50b2ea/lifecycle-runtime-2.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/3bf0d0ce41e0f07bcd57ea2bef196630/lifecycle-livedata-2.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/de26f33b1339a8e318d95f8968e3129c/lifecycle-livedata-core-2.0.0-api.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/b46f524c72bd2d54804e9166f5ff6173/core-runtime-2.0.0-api.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/57d6e9da4fac30d5886ca8c86482864b/lifecycle-viewmodel-2.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/ec25835f2295d4eecc51d445dd8032f7/versionedparcelable-1.0.0-api.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/ea87025a632f9bd5f7df46ae5f78d945/jetified-firebase-components-16.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/8ea112df1ca10da0d1d3793d4796d5d9/interpolator-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/20cc899d080b089da0ef557abc476bd5/cursoradapter-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/0177d662bb21658006257fc4d39205ea/documentfile-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/2b5a0773f7939c64cade0b4ae8365cf9/localbroadcastmanager-1.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/9eac29f7d7cb12873f671c2669432659/print-1.0.0-api.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.13.0/4b8b4f83754789e928d2a15e59d182f921744aaf/atomicfu-0.13.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.26/77100a62c2e6f04b53977b9f541044d7d722693d/slf4j-api-1.7.26.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.1/2cf7a6cc79732e3bdf1647d7404279900ca63eb0/config-1.3.1.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.13.0/9c669ec40acad7e69d5a05603996b3850513828/atomicfu-common-0.13.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.6.5/c3dad10377f0e2242c9a4b88e9704eaf79103679/auto-value-annotations-1.6.5.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/5a6d0a1ed59687ce78675403eecb88de/firebase-database-collection-17.0.0-api.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/8b3f5b6bce1f3be92def8e7b5501f5e4/protolite-well-known-types-17.0.0-api.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.21.0/ba70013e391188c6d6788272b30f6a82671b6f68/grpc-protobuf-lite-1.21.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-lite/3.0.1/59b5b9c6e1a3054696d23492f888c1f8b583f5fc/protobuf-lite-3.0.1.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-okhttp/1.21.0/f51c169b2a6173a1adfece8788ddc3345f6fa0e6/grpc-okhttp-1.21.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.5/7a15a7db50f86c4b64aa3367424a60e3a325b8f1/okhttp-2.7.5.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/452b8eb13e501ab3b9290cd67915d772/grpc-android-1.21.0-api.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.21.0/578244433f69fbd2a8b5183c528088cc269c9417/grpc-core-1.21.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-grpc-metrics/0.21.0/f07d3a325f1fe69ee40d6b409086964edfef4e69/opencensus-contrib-grpc-metrics-0.21.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-api/0.21.0/73c07fe6458840443f670b21c7bf57657093b4e1/opencensus-api-0.21.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.21.0/b4bfac72f48316b54a4dd092d4fa89a4dddb923e/grpc-stub-1.21.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.21.0/e52aece5a530c5a64872c6ee1ee7c9e8bf30aed5/grpc-api-1.21.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.21.0/ebe55e07eda31ebc4c0c3228abef3435fa98d516/grpc-context-1.21.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.2/d1a0c5032570e0f64be6b4d9c90cdeb103129029/error_prone_annotations-2.3.2.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/26.0-android/ef69663836b339db335fde0df06fb3cd84e3742b/guava-26.0-android.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.5.2/dc0b20906c9e4b9724af29d11604efa574066892/checker-compat-qual-2.5.2.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/3.5.0/ad17a14009fa4322bf1f90fd8ca631992e5d667f/databinding-common-3.5.0.jar:/Users/thbao/.gradle/caches/modules-2/files-2.1/org.kodein.di/kodein-di-core-jvm/6.4.1/225b9bb56232c224adad46a5a2dbba6c8913a48c/kodein-di-core-jvm-6.4.1.jar:/Users/thbao/.gradle/caches/transforms-2/files-2.1/fcae01a5532cc449e08745bc74cf6ddb/firestore-debug-api.jar:/Users/thbao/Desktop/test/VibeChallengeSDK/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar:/Users/thbao/Library/Android/sdk/platforms/android-28/android.jar:/Users/thbao/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="VibeChallengeSDK_debug" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.50/b499f22fd7c3e9c2e5b6c4005221fa47fc7f9a7a/kotlin-reflect-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.50/59492b8dfb92522ba0ddb5dd1c4d0ef0a4fca1af/kotlin-script-runtime-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.3.50/b8e0110c386c08f46a8c5e45b8c64aece1914867/kotlin-scripting-common-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable/1.3.50/8cf679fe2d8cd6fa57e9ca4ca46222d5477f077c/kotlin-scripting-compiler-embeddable-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable/1.3.50/cc87aae13b61cdcf296ac9416b464e44f27b6dc4/kotlin-scripting-compiler-impl-embeddable-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.3.50/53f579e1bee3dab3df915d923ad1bb43bc37cd18/kotlin-scripting-jvm-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-serialization/1.3.50/c6864a222b87dca7f40c42a1f7fe55158061a10a/kotlin-serialization-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.1.1/3d2b7321cdef9ebf9cb7729ea4f75a6f6457df86/kotlinx-coroutines-core-1.1.1.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../VibeChallengeSDK/build/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../VibeChallengeSDK/build/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../VibeChallengeSDK">
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidMain/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/build/generated/res/resValues/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidDebug/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/debug/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidDebug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidMain/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidDebugAndroidTest/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidDebugAndroidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidAndroidTest/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidTest/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidAndroidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidAndroidTestDebug/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidTestDebug/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidAndroidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidDebugUnitTest/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidDebugUnitTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/testDebug/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidRelease/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/release/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/release/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidRelease/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidReleaseUnitTest/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidReleaseUnitTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidTestRelease/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/testRelease/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/testRelease/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/src/androidTestRelease/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../VibeChallengeSDK/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.13.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-android:1.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-client-core-jvm:1.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-cio-jvm:1.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-network:1.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-jvm:1.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-utils-jvm:1.2.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-io-jvm:0.1.15" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-io-jvm:0.1.15" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.50" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: io.ktor:ktor-client-serialization:1.2.5">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-serialization/1.2.5/d291edbc9db9d06e5a9ea3062b8e6836c06dda0d/ktor-client-serialization-1.2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-serialization/1.2.5/58571a7b0b6b6c15564e6f52869853a4a6ceeba7/ktor-client-serialization-1.2.5-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-serialization/1.2.5/2c7ce43377640c1d265e718837b1b0334e9de500/ktor-client-serialization-1.2.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: io.ktor:ktor-client-json:1.2.5">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-json/1.2.5/7093f1e100f4e42273089e2ea89ef739a8ec6aaf/ktor-client-json-1.2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-json/1.2.5/58571a7b0b6b6c15564e6f52869853a4a6ceeba7/ktor-client-json-1.2.5-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-json/1.2.5/86b273f065fedb4cef383a824e11678f4f03d347/ktor-client-json-1.2.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: io.ktor:ktor-client-core:1.2.5">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core/1.2.5/ffe37d9be01b15e8ba6c89d16d4e25f551a2175c/ktor-client-core-1.2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core/1.2.5/eae19c817a417900920e03d502d36f5038e04360/ktor-client-core-1.2.5-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core/1.2.5/1c16eea0ebc7832507783edaa1e6aa36908f46ae/ktor-client-core-1.2.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: io.ktor:ktor-http-cio:1.2.5">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio/1.2.5/abee6d98d153fb30a9eebc4f3979ef5490e3d05e/ktor-http-cio-1.2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio/1.2.5/a0ab4ba62cbcdbb908efa9325d4976d5a2ca53d5/ktor-http-cio-1.2.5-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio/1.2.5/47cd0fe8ad87745b4518f74c566d21074a066c3/ktor-http-cio-1.2.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: io.ktor:ktor-http:1.2.5">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http/1.2.5/85281719152e4a691db1926750412f5821b22262/ktor-http-1.2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http/1.2.5/eae19c817a417900920e03d502d36f5038e04360/ktor-http-1.2.5-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http/1.2.5/dd2efff7abd37867a9baa9406b8550a121f8b454/ktor-http-1.2.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: io.ktor:ktor-utils:1.2.5">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.2.5/ae6161c95f16945140f27c5cbbf3c7a2061def34/ktor-utils-1.2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.2.5/627d8afcc1ff7da1abeb4e6975d4bef4d35ca0ae/ktor-utils-1.2.5-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.2.5/f0de7e09886534ebeb6eb9e5a6ce8fee99e6c2a/ktor-utils-1.2.5-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-io:0.1.15">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io/0.1.15/c6207b8fc281f8480848032d09189360b20d1c8e/kotlinx-coroutines-io-0.1.15.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io/0.1.15/9405973e5ba6cf1beac5833fb7caa35f763af00/kotlinx-coroutines-io-0.1.15-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io/0.1.15/14daf0b1bd62a7eaed3a535a0b40e97288b0255/kotlinx-coroutines-io-0.1.15-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-common:1.3.2" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:0.13.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime-common/0.13.0/de1deb3d97dced6bea712227b1e611b6bfdbcd7e/kotlinx-serialization-runtime-common-0.13.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime-common/0.13.0/1d562a55b0cef5a78c7f456042407ca27adaedd9/kotlinx-serialization-runtime-common-0.13.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: com.github.florent37:multiplatform-preferences:1.0.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/multiplatform-preferences/1.0.0/cefae10aaab16e6291d189ddb4e4bbf5eccbaad3/multiplatform-preferences-1.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/multiplatform-preferences/1.0.0/9aac68113dd3dbe8ef68ee0cb18fa424f4e30bef/multiplatform-preferences-1.0.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/multiplatform-preferences/1.0.0/d46577ceeb818fc997fc0a545177f34fe74a7367/multiplatform-preferences-1.0.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jetbrains.kotlinx:kotlinx-io:0.1.15">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io/0.1.15/cd1dd900f6df56e47ba8d53693fcc48968f257ad/kotlinx-io-0.1.15.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io/0.1.15/e95b2f4e94d98ddc1075e2326c1e5bc544097d6e/kotlinx-io-0.1.15-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io/0.1.15/f443dddadd3bfef9923a85d99387d73e3c8f64cc/kotlinx-io-0.1.15-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.50">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/acd7ffcfdebdbf05b2edba3615968b33241063ea/kotlin-stdlib-common-1.3.50-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/8ac406cf33e942265c4abb33ee0acdee79292dd6/kotlin-stdlib-common-1.3.50-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.kodein.di:kodein-di-erased-jvm:6.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jetbrains.kotlinx:atomicfu:0.13.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.13.0/4b8b4f83754789e928d2a15e59d182f921744aaf/atomicfu-0.13.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.13.0/5cea6ca2a9107e92eb68df4fed8f090cdcf5b464/atomicfu-0.13.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.13.0/5d9910fe1c99110ed4b1a65de4c3893c23ec0f6/atomicfu-0.13.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.26" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe:config:1.3.1" level="project" />
+    <orderEntry type="module-library">
+      <library name="Gradle: org.jetbrains.kotlinx:atomicfu-common:0.13.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.13.0/9c669ec40acad7e69d5a05603996b3850513828/atomicfu-common-0.13.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.13.0/5cea6ca2a9107e92eb68df4fed8f090cdcf5b464/atomicfu-common-0.13.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.13.0/a20084264b96ef0a2a04087723d837741b0776c1/atomicfu-common-0.13.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: com.google.auto.value:auto-value-annotations:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-protobuf-lite:1.21.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-lite:3.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-okhttp:1.21.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp:okhttp:2.7.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.13.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-core:1.21.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.opencensus:opencensus-contrib-grpc-metrics:0.21.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.opencensus:opencensus-api:0.21.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-stub:1.21.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-api:1.21.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-context:1.21.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.17" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:26.0-android" level="project" />
+    <orderEntry type="library" name="Gradle: org.checkerframework:checker-compat-qual:2.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.j2objc:j2objc-annotations:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.7" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android:annotations:4.1.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.databinding:databinding-common:3.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.kodein.di:kodein-di-core-jvm:6.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: dev.icerock.moko:mvvm-android-debug:0.3.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: dev.icerock.moko:core-android-debug:0.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: dev.icerock.moko:resources-android-debug:0.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-extensions:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.florent37:multiplatform-preferences-android:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-core:17.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-firestore:20.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-process:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-service:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-auth-interop:18.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics:17.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-api:17.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid:20.0.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-interop:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common:19.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement:17.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk:17.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-impl:17.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-sdk-api:17.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-base:17.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-stats:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-measurement-connector:18.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.databinding:databinding-adapters:3.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.databinding:databinding-runtime:3.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-components:16.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-database-collection:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:protolite-well-known-types:17.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-android:1.21.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: co.touchlab:firestore-android-debug:0.2.5@aar" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.mockk:mockk:1.9.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk/1.9.3/d26e5a4a7fd4ecb5635b28a0b70960ab0b20556d/mockk-1.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk/1.9.3/779a1a1ade326952408910692fc5ad61c97f7b69/mockk-1.9.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk/1.9.3/83247608f4897340fa8d29f234fda2afe9f4f162/mockk-1.9.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.mockk:mockk-dsl-jvm:1.9.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl-jvm/1.9.3/63de994ae1f30b06395325258d2e5683a8bdd525/mockk-dsl-jvm-1.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl-jvm/1.9.3/bfe9710d5e1efc7308acf8f3b2f7ecd3a23654d3/mockk-dsl-jvm-1.9.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl-jvm/1.9.3/4434ab453b5722f9d7f5a73ad0d5acdbbd8e2df8/mockk-dsl-jvm-1.9.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.3.0">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.0/6fd129fd9ba8581f2cb9c58bfd431dda4ee0457e/kotlin-reflect-1.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.0/9a37f7b694e5c673ef260ed06f3b8eacdf1617fb/kotlin-reflect-1.3.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.0/2c0e9afd8097b36a2288df59af219bfe2b78ab6d/kotlin-reflect-1.3.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlin:kotlin-test-common:1.3.50">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.3.50/667fd8bfc2db0bd546f3b90fe15fe83648437bea/kotlin-test-common-1.3.50.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.3.50/2a8648cd44e50551d613903b0ce8383488da625c/kotlin-test-common-1.3.50-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-common/1.3.50/af7d93df16c68598ed6fe070917488a6f656d7d6/kotlin-test-common-1.3.50-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.50">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.3.50/714afde80cb3ee60d41775469cf7412ae622869b/kotlin-test-annotations-common-1.3.50.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.3.50/2a8648cd44e50551d613903b0ce8383488da625c/kotlin-test-annotations-common-1.3.50-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.3.50/700f53ff5cc00a8ebc0e2ddabfa5c556f9f8d28e/kotlin-test-annotations-common-1.3.50-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.mockk:mockk-common:1.9.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-common/1.9.3/7f2d6bc3390a76edeba34947e0de6d2314645f25/mockk-common-1.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-common/1.9.3/6bba06139ca76d3c7eef7ec2209a6f0045597476/mockk-common-1.9.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-common/1.9.3/7982379142311fc7754b010c4aaa7a875d8435c1/mockk-common-1.9.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.mockk:mockk-dsl:1.9.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl/1.9.3/4f158b4ed161bc4373356733088e09491ecd13da/mockk-dsl-1.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl/1.9.3/fd813eb54e0175a89b8ca2147a9490b1b8ce2e23/mockk-dsl-1.9.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-dsl/1.9.3/58f3065a608c3077bdfb54c66ac7cfcc9d088bce/mockk-dsl-1.9.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.mockk:mockk-agent-jvm:1.9.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-jvm/1.9.3/d6f7b4d893caf1cda2bb28ee637b247ced5d5eab/mockk-agent-jvm-1.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-jvm/1.9.3/7f26cba91797e69ba64b113c2e6a3f681e59e36b/mockk-agent-jvm-1.9.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-jvm/1.9.3/58e4cc5392a79ba3ef5b5e1b60ab360a6bb55f3a/mockk-agent-jvm-1.9.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.mockk:mockk-agent-common:1.9.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-common/1.9.3/50f32c350cb9018a62e6de2bed710acf675f887b/mockk-agent-common-1.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-common/1.9.3/45d67ef46c58f7ae325254a704d8b9755937f66d/mockk-agent-common-1.9.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-common/1.9.3/da8727f86df43a6e0834b8f8ed2baf7bc9e036d5/mockk-agent-common-1.9.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: io.mockk:mockk-agent-api:1.9.3">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-api/1.9.3/467c1fd4867fc49b98a7de421a717b619767abfe/mockk-agent-api-1.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-api/1.9.3/d84593f526d8cf8ed65bb4ddd21178400d3c1f39/mockk-agent-api-1.9.3-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mockk/mockk-agent-api/1.9.3/fd78291d32c89db30f7575ccc58b9f27d9aee4e6/mockk-agent-api-1.9.3-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.objenesis:objenesis:3.0.1">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.0.1/11cfac598df9dc48bb9ed9357ed04212694b7808/objenesis-3.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.0.1/9eff991f499ee100be8ab2a3e930ba27d33ed538/objenesis-3.0.1-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/3.0.1/4aaa3e228e1ae7c71ded703b8742c37c058057fd/objenesis-3.0.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: net.bytebuddy:byte-buddy:1.9.10">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.9.10/211a2b4d3df1eeef2a6cacf78d74a1f725e7a840/byte-buddy-1.9.10.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.9.10/f6300e09891104e92f40ab1ab6bb142ddfd9a85e/byte-buddy-1.9.10-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.9.10/4a97f2b09ac6a9966e3aaddb4362b81d795d250b/byte-buddy-1.9.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: net.bytebuddy:byte-buddy-agent:1.9.10">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.9.10/9674aba5ee793e54b864952b001166848da0f26b/byte-buddy-agent-1.9.10.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.9.10/dba8a7c5594464aaec2d24509b2f8e95c5447769/byte-buddy-agent-1.9.10-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.9.10/a00b33b443dc92a59ab01f21e37dd2aee07c4256/byte-buddy-agent-1.9.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="test.VibeChallengeSDK.commonMain" />
+    <orderEntry type="module" module-name="test.VibeChallengeSDK.commonTest" scope="TEST" production-on-test="" />
+  </component>
+</module>

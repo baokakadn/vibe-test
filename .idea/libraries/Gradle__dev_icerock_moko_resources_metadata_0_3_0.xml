@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: dev.icerock.moko:resources-metadata:0.3.0" type="kotlin.common">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.icerock.moko/resources-metadata/0.3.0/75f388e509c6c5cda0d8ab4dc55052b5181c2a90/resources-metadata-0.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.icerock.moko/resources-metadata/0.3.0/c6a3409209e33811fb66e14fee66e712da218c0b/resources-metadata-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: co.touchlab:firestore-metadata:0.2.5" type="kotlin.common">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/firestore-metadata/0.2.5/dbba7095f423fcd6a0f5d0a9562be2d7fbb85131/firestore-metadata-0.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/firestore-metadata/0.2.5/83e6edd61a1dfdc054fd69cf9e2e5e38cb751df0/firestore-metadata-0.2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

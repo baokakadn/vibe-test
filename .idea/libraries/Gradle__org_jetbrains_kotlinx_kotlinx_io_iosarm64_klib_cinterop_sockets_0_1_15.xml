@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-io-iosarm64:klib:cinterop-sockets:0.1.15">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-iosarm64/0.1.15/7073909822313b6429c3cf0265c710df64a55e4d/kotlinx-io-cinterop-sockets.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-iosarm64/0.1.15/5116db2c8e75d3fd9ccc7124c206f18459bbc991/kotlinx-io-iosarm64-0.1.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

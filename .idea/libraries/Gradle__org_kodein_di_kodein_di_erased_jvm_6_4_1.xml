@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.kodein.di:kodein-di-erased-jvm:6.4.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.kodein.di/kodein-di-erased-jvm/6.4.1/b8fe4dc7404c029cbd70a41bf3019a0ab919dda/kodein-di-erased-jvm-6.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.kodein.di/kodein-di-erased-jvm/6.4.1/5de3c7e73942e562b580da2679a0713b6181b75d/kodein-di-erased-jvm-6.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
