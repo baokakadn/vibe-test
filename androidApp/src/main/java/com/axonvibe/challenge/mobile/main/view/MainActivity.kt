@@ -59,7 +59,6 @@ class MainActivity : AppCompatActivity() {
         btn_login_main_screen.setSafeOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
-            finish()
         }
         val message = intent.getStringExtra(MESSAGE)
         message?.let {
