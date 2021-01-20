@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="21"
-6-->/Volumes/Data/New project/VibeChallengeSDK/src/androidMain/AndroidManifest.xml
+6-->/Users/thbao/Desktop/test/VibeChallengeSDK/src/androidMain/AndroidManifest.xml
 7        android:targetSdkVersion="28" />
-7-->/Volumes/Data/New project/VibeChallengeSDK/src/androidMain/AndroidManifest.xml
+7-->/Users/thbao/Desktop/test/VibeChallengeSDK/src/androidMain/AndroidManifest.xml
 8
 9</manifest>

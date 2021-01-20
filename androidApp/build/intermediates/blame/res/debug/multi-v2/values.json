@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/Data/New project/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/thbao/Desktop/test/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/thbao/.gradle/caches/transforms-2/files-2.1/73fd0a456ba917b199985c97afcc5812/jetified-play-services-basement-17.0.0/res/values/values.xml",
@@ -40,40 +40,6 @@
                     }
                 },
                 {
-                    "source": "/Volumes/Data/New project/androidApp/src/main/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "2,5,23,15,6,16,17,18,7,19,8,20,9,10,12,21,3,11,22,13,4,14,33,35,34,25,26,27,28,29,30,31",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,160,842,530,197,569,608,647,234,686,271,725,308,345,419,764,90,382,803,456,125,493,1142,1220,1181,882,919,956,993,1030,1067,1104",
-                        "endColumns": "34,36,38,38,36,38,38,38,36,38,36,38,36,36,36,38,34,36,38,36,34,36,38,36,38,36,36,36,36,36,36,36",
-                        "endOffsets": "85,192,876,564,229,603,642,681,266,720,303,759,340,377,451,798,120,414,837,488,155,525,1176,1252,1215,914,951,988,1025,1062,1099,1136"
-                    },
-                    "to": {
-                        "startLines": "520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,720,721,722,723,724,725,726,727,728,729",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "33727,33762,33799,33838,33877,33914,33953,33992,34031,34068,34107,34144,34183,34220,34257,34294,34333,34368,34405,34444,34481,34516,46429,46468,46505,46544,46581,46618,46655,46692,46729,46766",
-                        "endColumns": "34,36,38,38,36,38,38,38,36,38,36,38,36,36,36,38,34,36,38,36,34,36,38,36,38,36,36,36,36,36,36,36",
-                        "endOffsets": "33757,33794,33833,33872,33909,33948,33987,34026,34063,34102,34139,34178,34215,34252,34289,34328,34363,34400,34439,34476,34511,34548,46463,46500,46539,46576,46613,46650,46687,46724,46761,46798"
-                    }
-                },
-                {
-                    "source": "/Volumes/Data/New project/androidApp/build/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,303,385,489,598,718,811",
-                        "endColumns": "143,103,81,103,108,119,92,69",
-                        "endOffsets": "194,298,380,484,593,713,806,876"
-                    },
-                    "to": {
-                        "startLines": "924,931,934,935,936,937,938,984",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "59693,60470,60740,60822,60926,61035,61155,68832",
-                        "endColumns": "143,103,81,103,108,119,92,69",
-                        "endOffsets": "59832,60569,60817,60921,61030,61150,61243,68897"
-                    }
-                },
-                {
                     "source": "/Users/thbao/.gradle/caches/transforms-2/files-2.1/23f89dfa07024ca5de19091b6f305b18/navigation-common-2.3.2/res/values/values.xml",
                     "from": {
                         "startLines": "2,13,19,25,28",
@@ -90,6 +56,25 @@
                         "endLines": "6529,6535,6541,6544,6605",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "416523,416767,417014,417147,420862"
+                    }
+                },
+                {
+                    "source": "/Users/thbao/Desktop/test/androidApp/src/main/res/values/font_certs.xml",
+                    "from": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,257,1982",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "252,1977,3567"
+                    },
+                    "to": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
                     }
                 },
                 {
@@ -143,23 +128,6 @@
                         "startOffsets": "49861",
                         "endColumns": "40",
                         "endOffsets": "49897"
-                    }
-                },
-                {
-                    "source": "/Volumes/Data/New project/androidApp/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1,10,11,12,13,16,17,14,15,6,3,9,2,5,4,8,7",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "16,695,751,807,863,1085,1178,919,1003,325,134,566,72,267,197,472,403",
-                        "endColumns": "55,55,55,55,55,92,71,83,81,77,62,128,61,57,69,93,68",
-                        "endOffsets": "67,746,802,858,914,1173,1245,998,1080,398,192,690,129,320,262,561,467"
-                    },
-                    "to": {
-                        "startLines": "894,895,896,897,898,925,926,932,933,941,942,985,988,989,990,991,992",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "56372,56428,56484,56540,56596,59837,59930,60574,60658,61555,61633,68902,69155,69217,69275,69345,69439",
-                        "endColumns": "55,55,55,55,55,92,71,83,81,77,62,128,61,57,69,93,68",
-                        "endOffsets": "56423,56479,56535,56591,56647,59925,59997,60653,60735,61628,61691,69026,69212,69270,69340,69434,69503"
                     }
                 },
                 {
@@ -220,6 +188,23 @@
                     }
                 },
                 {
+                    "source": "/Users/thbao/Desktop/test/androidApp/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1,10,11,12,13,16,17,14,15,6,3,9,2,5,4,8,7",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "16,695,751,807,863,1085,1178,919,1003,325,134,566,72,267,197,472,403",
+                        "endColumns": "55,55,55,55,55,92,71,83,81,77,62,128,61,57,69,93,68",
+                        "endOffsets": "67,746,802,858,914,1173,1245,998,1080,398,192,690,129,320,262,561,467"
+                    },
+                    "to": {
+                        "startLines": "894,895,896,897,898,925,926,932,933,941,942,985,988,989,990,991,992",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56372,56428,56484,56540,56596,59837,59930,60574,60658,61555,61633,68902,69155,69217,69275,69345,69439",
+                        "endColumns": "55,55,55,55,55,92,71,83,81,77,62,128,61,57,69,93,68",
+                        "endOffsets": "56423,56479,56535,56591,56647,59925,59997,60653,60735,61628,61691,69026,69212,69270,69340,69434,69503"
+                    }
+                },
+                {
                     "source": "/Users/thbao/.gradle/caches/transforms-2/files-2.1/b9a1a5cfe692deabb5bc40ef941e2841/fragment-1.2.4/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,9",
@@ -239,22 +224,39 @@
                     }
                 },
                 {
-                    "source": "/Volumes/Data/New project/androidApp/src/main/res/values/themes.xml",
+                    "source": "/Users/thbao/Desktop/test/androidApp/src/main/res/values/preloaded_fonts.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "53",
-                        "endLines": "7",
+                        "startOffsets": "55",
+                        "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "339"
+                        "endOffsets": "192"
                     },
                     "to": {
-                        "startLines": "1010",
+                        "startLines": "16",
                         "startColumns": "4",
-                        "startOffsets": "70875",
-                        "endLines": "1015",
+                        "startOffsets": "3667",
+                        "endLines": "19",
                         "endColumns": "12",
-                        "endOffsets": "71161"
+                        "endOffsets": "3804"
+                    }
+                },
+                {
+                    "source": "/Users/thbao/Desktop/test/androidApp/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "6,13,9,11,14,8,2,3,10,4,5,7,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "237,524,360,438,563,321,55,102,400,147,192,279,483",
+                        "endColumns": "41,38,39,44,43,38,46,44,37,44,44,41,40",
+                        "endOffsets": "274,558,395,478,602,355,97,142,433,187,232,316,519"
+                    },
+                    "to": {
+                        "startLines": "246,247,311,312,315,339,348,349,350,361,362,368,369",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "15564,15606,20175,20215,20395,21897,22524,22571,22616,23351,23396,23721,23763",
+                        "endColumns": "41,38,39,44,43,38,46,44,37,44,44,41,40",
+                        "endOffsets": "15601,15640,20210,20255,20434,21931,22566,22611,22649,23391,23436,23758,23799"
                     }
                 },
                 {
@@ -274,23 +276,6 @@
                         "endLines": "7344",
                         "endColumns": "24",
                         "endOffsets": "461266"
-                    }
-                },
-                {
-                    "source": "/Volumes/Data/New project/androidApp/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "6,13,9,11,14,8,2,3,10,4,5,7,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "237,524,360,438,563,321,55,102,400,147,192,279,483",
-                        "endColumns": "41,38,39,44,43,38,46,44,37,44,44,41,40",
-                        "endOffsets": "274,558,395,478,602,355,97,142,433,187,232,316,519"
-                    },
-                    "to": {
-                        "startLines": "246,247,311,312,315,339,348,349,350,361,362,368,369",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "15564,15606,20175,20215,20395,21897,22524,22571,22616,23351,23396,23721,23763",
-                        "endColumns": "41,38,39,44,43,38,46,44,37,44,44,41,40",
-                        "endOffsets": "15601,15640,20210,20255,20434,21931,22566,22611,22649,23391,23436,23758,23799"
                     }
                 },
                 {
@@ -332,22 +317,22 @@
                     }
                 },
                 {
-                    "source": "/Volumes/Data/New project/androidApp/src/main/res/values/font_certs.xml",
+                    "source": "/Users/thbao/Desktop/test/androidApp/src/main/res/values/themes.xml",
                     "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,257,1982",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "252,1977,3567"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "53",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "339"
                     },
                     "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
+                        "startLines": "1010",
+                        "startColumns": "4",
+                        "startOffsets": "70875",
+                        "endLines": "1015",
+                        "endColumns": "12",
+                        "endOffsets": "71161"
                     }
                 },
                 {
@@ -389,6 +374,23 @@
                     }
                 },
                 {
+                    "source": "/Users/thbao/Desktop/test/androidApp/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "2,5,23,15,6,16,17,18,7,19,8,20,9,10,12,21,3,11,22,13,4,14,33,35,34,25,26,27,28,29,30,31",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,160,842,530,197,569,608,647,234,686,271,725,308,345,419,764,90,382,803,456,125,493,1142,1220,1181,882,919,956,993,1030,1067,1104",
+                        "endColumns": "34,36,38,38,36,38,38,38,36,38,36,38,36,36,36,38,34,36,38,36,34,36,38,36,38,36,36,36,36,36,36,36",
+                        "endOffsets": "85,192,876,564,229,603,642,681,266,720,303,759,340,377,451,798,120,414,837,488,155,525,1176,1252,1215,914,951,988,1025,1062,1099,1136"
+                    },
+                    "to": {
+                        "startLines": "520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,720,721,722,723,724,725,726,727,728,729",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "33727,33762,33799,33838,33877,33914,33953,33992,34031,34068,34107,34144,34183,34220,34257,34294,34333,34368,34405,34444,34481,34516,46429,46468,46505,46544,46581,46618,46655,46692,46729,46766",
+                        "endColumns": "34,36,38,38,36,38,38,38,36,38,36,38,36,36,36,38,34,36,38,36,34,36,38,36,38,36,36,36,36,36,36,36",
+                        "endOffsets": "33757,33794,33833,33872,33909,33948,33987,34026,34063,34102,34139,34178,34215,34252,34289,34328,34363,34400,34439,34476,34511,34548,46463,46500,46539,46576,46613,46650,46687,46724,46761,46798"
+                    }
+                },
+                {
                     "source": "/Users/thbao/.gradle/caches/transforms-2/files-2.1/a1a479b61e0d4f314f2ff1315d51bcb7/coordinatorlayout-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,6,16",
@@ -408,41 +410,20 @@
                     }
                 },
                 {
-                    "source": "/Volumes/Data/New project/androidApp/src/main/res/values/styles.xml",
+                    "source": "/Users/thbao/Desktop/test/androidApp/build/generated/res/google-services/debug/values/values.xml",
                     "from": {
-                        "startLines": "3,10",
-                        "startColumns": "4,4",
-                        "startOffsets": "56,332",
-                        "endLines": "8,13",
-                        "endColumns": "12,12",
-                        "endOffsets": "326,546"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,303,385,489,598,718,811",
+                        "endColumns": "143,103,81,103,108,119,92,69",
+                        "endOffsets": "194,298,380,484,593,713,806,876"
                     },
                     "to": {
-                        "startLines": "1016,2857",
-                        "startColumns": "4,4",
-                        "startOffsets": "71166,190558",
-                        "endLines": "1021,2860",
-                        "endColumns": "12,12",
-                        "endOffsets": "71436,190772"
-                    }
-                },
-                {
-                    "source": "/Volumes/Data/New project/androidApp/src/main/res/values/preloaded_fonts.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "192"
-                    },
-                    "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "3667",
-                        "endLines": "19",
-                        "endColumns": "12",
-                        "endOffsets": "3804"
+                        "startLines": "924,931,934,935,936,937,938,984",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "59693,60470,60740,60822,60926,61035,61155,68832",
+                        "endColumns": "143,103,81,103,108,119,92,69",
+                        "endOffsets": "59832,60569,60817,60921,61030,61150,61243,68897"
                     }
                 },
                 {
@@ -536,6 +517,25 @@
                         "startOffsets": "50046",
                         "endColumns": "57",
                         "endOffsets": "50099"
+                    }
+                },
+                {
+                    "source": "/Users/thbao/Desktop/test/androidApp/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "56,332",
+                        "endLines": "8,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "326,546"
+                    },
+                    "to": {
+                        "startLines": "1016,2857",
+                        "startColumns": "4,4",
+                        "startOffsets": "71166,190558",
+                        "endLines": "1021,2860",
+                        "endColumns": "12,12",
+                        "endOffsets": "71436,190772"
                     }
                 },
                 {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/Data/New project/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
+            "outputFile": "/Users/thbao/Desktop/test/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
             "map": [
                 {
                     "source": "/Users/thbao/.gradle/caches/transforms-2/files-2.1/73fd0a456ba917b199985c97afcc5812/jetified-play-services-basement-17.0.0/res/values-pl/values.xml",

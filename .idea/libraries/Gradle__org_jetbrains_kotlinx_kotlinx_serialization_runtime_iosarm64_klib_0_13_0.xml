@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-runtime-iosarm64:klib:0.13.0">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-runtime-iosarm64:klib:0.13.0" type="kotlin.native">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime-iosarm64/0.13.0/6b2b6ecd9bec835b9a324e19caba2d63780d2e20/kotlinx-serialization-runtime.klib!/" />
     </CLASSES>

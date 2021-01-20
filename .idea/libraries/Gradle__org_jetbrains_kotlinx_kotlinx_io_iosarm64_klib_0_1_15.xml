@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-io-iosarm64:klib:0.1.15">
+  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-io-iosarm64:klib:0.1.15" type="kotlin.native">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-iosarm64/0.1.15/720abfd77d2447d2964ca4c78d2a2284711eda52/kotlinx-io.klib!/" />
     </CLASSES>

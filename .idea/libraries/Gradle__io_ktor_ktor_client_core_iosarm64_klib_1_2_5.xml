@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: io.ktor:ktor-client-core-iosarm64:klib:1.2.5">
+  <library name="Gradle: io.ktor:ktor-client-core-iosarm64:klib:1.2.5" type="kotlin.native">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-iosarm64/1.2.5/c64f601982e84ce42f1aaf7a278e568ebc4b1b00/ktor-client-core.klib!/" />
     </CLASSES>

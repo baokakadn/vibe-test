@@ -6,8 +6,8 @@
         <dependsOnModuleNames>:VibeChallengeSDK:commonTest</dependsOnModuleNames>
         <sourceSets>
           <sourceSet>test.VibeChallengeSDK.iosMain</sourceSet>
-          <sourceSet>test.VibeChallengeSDK.commonMain</sourceSet>
           <sourceSet>test.VibeChallengeSDK.commonTest</sourceSet>
+          <sourceSet>test.VibeChallengeSDK.commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />

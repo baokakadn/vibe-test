@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: org.kodein.di:kodein-di-erased-iosarm64:klib:6.4.1">
+  <library name="Gradle: org.kodein.di:kodein-di-erased-iosarm64:klib:6.4.1" type="kotlin.native">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.kodein.di/kodein-di-erased-iosarm64/6.4.1/3273a84ef676925cbd5c98d20874795d80165c43/kodein-di-erased.klib!/" />
     </CLASSES>

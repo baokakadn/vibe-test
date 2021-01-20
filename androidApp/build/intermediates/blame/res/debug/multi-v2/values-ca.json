@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/Data/New project/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
+            "outputFile": "/Users/thbao/Desktop/test/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
             "map": [
                 {
                     "source": "/Users/thbao/.gradle/caches/transforms-2/files-2.1/a8f2c6c100a0079a118e1b008901be4a/jetified-zxing-android-embedded-3.6.0/res/values-ca/values-ca.xml",

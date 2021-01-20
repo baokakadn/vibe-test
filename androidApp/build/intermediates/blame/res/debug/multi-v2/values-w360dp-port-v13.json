@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/Data/New project/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "/Users/thbao/Desktop/test/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
                     "source": "/Users/thbao/.gradle/caches/transforms-2/files-2.1/fc20e2a724f01abd7feeb84d4e044ae8/material-1.1.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",

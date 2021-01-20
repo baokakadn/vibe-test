@@ -100,9 +100,4 @@ class LoginActivity : AppCompatActivity() {
         }
         webView.loadUrl(LOGIN_URL)
     }
-
-    override fun onDestroy() {
-        Log.i("AAAAAAAAAAAAAAAA", "Login destroy")
-        super.onDestroy()
-    }
 }

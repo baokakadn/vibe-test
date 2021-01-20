@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: co.touchlab:firestore-iosarm64:klib:0.2.5">
+  <library name="Gradle: co.touchlab:firestore-iosarm64:klib:0.2.5" type="kotlin.native">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.touchlab/firestore-iosarm64/0.2.5/5e9675973461134408341404ab3ce869484c5edf/firestore.klib!/" />
     </CLASSES>

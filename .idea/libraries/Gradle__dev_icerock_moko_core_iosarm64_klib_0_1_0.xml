@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: dev.icerock.moko:core-iosarm64:klib:0.1.0">
+  <library name="Gradle: dev.icerock.moko:core-iosarm64:klib:0.1.0" type="kotlin.native">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/dev.icerock.moko/core-iosarm64/0.1.0/d05faee49998ad8e2bde16bd747601cf17bca2c1/core.klib!/" />
     </CLASSES>

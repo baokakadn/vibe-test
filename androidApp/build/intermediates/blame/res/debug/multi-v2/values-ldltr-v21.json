@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Volumes/Data/New project/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "/Users/thbao/Desktop/test/androidApp/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
                     "source": "/Users/thbao/.gradle/caches/transforms-2/files-2.1/5c94ec2c0f240fe48b3bed3fc536f026/appcompat-1.1.0/res/values-ldltr-v21/values-ldltr-v21.xml",
