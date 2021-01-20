@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.axonvibe.challenge.mobile"
-    android:allowTaskReparenting="true">
+    package="com.axonvibe.challenge.mobile">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -11,6 +10,7 @@
         android:label="@string/all_app_name"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
+        android:allowTaskReparenting="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".main.view.AnswerIncorrectActivity"
             android:screenOrientation="portrait" />
